@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yummy-Yummy Chicken Nuggets</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffaf0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fbbf24;
+      color: #4b3200;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .features, .how-to, .testimonials {
+      margin-bottom: 40px;
+    }
+    .features ul, .how-to ol {
+      list-style: none;
+      padding-left: 0;
+    }
+    .features li::before {
+      content: \"✅\";
+      margin-right: 10px;
+    }
+    .how-to li {
+      margin-bottom: 8px;
+    }
+    .testimonials blockquote {
+      font-style: italic;
+      margin: 20px 0;
+      border-left: 4px solid #fbbf24;
+      padding-left: 10px;
+      color: #555;
+    }
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .cta a {
+      background-color: #f59e0b;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #fcd34d;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🐔 Yummy-Yummy Chicken Nuggets 🍗</h1>
+  <p>Lezatnya nugget ayam yang bikin nagih!</p>
+</header>
+
+<section class=\"features\">
+  <h2>Kenapa Pilih Yummy-Yummy?</h2>
+  <ul>
+    <li>100% Daging Ayam Asli</li>
+    <li>Gurih & Renyah</li>
+    <li>Mudah Dimasak</li>
+    <li>Cocok untuk Semua Usia</li>
+  </ul>
+</section>
+
+<section class=\"how-to\">
+  <h2>Cara Menyajikan</h2>
+  <ol>
+    <li>Panaskan minyak atau air fryer</li>
+    <li>Masak nugget hingga keemasan (±5 menit)</li>
+    <li>Sajikan dengan saus favorit</li>
+    <li>Nikmati!</li>
+  </ol>
+</section>
+
+<section class=\"testimonials\">
+  <h2>Testimoni</h2>
+  <blockquote>
+    “Anak-anak saya suka banget! Rasanya beda dari nugget lain.”<br>
+    <strong>- Ibu Rina, Jakarta</strong>
+  </blockquote>
+  <blockquote>
+    “Teksturnya crispy di luar, juicy di dalam. Top banget!”<br>
+    <strong>- Dino, Food Blogger</strong>
+  </blockquote>
+</section>
+
+<div class=\"cta\">
+  <a href=\"#\">🛒 BELI SEKARANG</a>
+</div>
+
+<footer>
+  📷 Instagram: @yummyyummy_nuggets | 📞 WhatsApp: 0812-3456-7890
+</footer>
+
+</body>
+</html>
